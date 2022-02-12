@@ -17,17 +17,13 @@ Hash計算 [ver1.7]
 
 
 動作確認
-Windows10 Pro 21H1 19043.1237 x86_64
-	 CPU Intel core i7-4790k 4.00GHz
-	 RAM DDR3 16GB 1600MHz 
-	 GPU NVIDIA Geforce GTX 960
-	 ROM C:480GB(SSD)
+Windows10 Pro 21H2 19044.1526 x64
 
 
 不具合等ありましても作者は更新の責任を負いません。
 PCに不具合等発生しても作者は責任を負いません。
 
-Copyright © 2021 Hibi_10000  All Rights Reserved.
+Copyright © 2022 Hibi_10000  All Rights Reserved.
 
 
 更新履歴
