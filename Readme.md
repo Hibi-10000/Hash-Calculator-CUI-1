@@ -23,7 +23,7 @@ Windows10 Pro 21H2 19044.1526 x64
 不具合等ありましても作者は更新の責任を負いません。
 PCに不具合等発生しても作者は責任を負いません。
 
-Copyright © 2022 Hibi_10000  All Rights Reserved.
+Copyright © 2021-2022 Hibi_10000
 
 
 更新履歴
