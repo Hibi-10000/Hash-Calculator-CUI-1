@@ -8,7 +8,7 @@ echo.
 echo Copyright (c) 2021-2022 Hibi_10000 GNU General Public License Version 3
 echo.
 
-if not exist ".\data\powershell.exe" (start /i /wait .\data\.powershell-set.bat)
+if not exist ".\data\powershell.exe" (start /i /wait .\data\powershell-set.bat)
 
 if not exist Log (md Log)
 
