@@ -1,15 +1,24 @@
 @echo OFF
+rem chcp 65001
+cls
+
 echo.
-echo HashŒvŽZCUI1
-echo Copyright (c) 2021 Hibi_10000  All Rights Reserved.
+echo Hash Calculator CUI v1
 echo.
+echo Copyright (c) 2021-2022 Hibi_10000 GNU General Public License Version 3
+echo.
+
+if not exist ".\data\powershell.exe" (start /i /wait .\data\.powershell-set.bat)
+
+if not exist Log (md Log)
 
 set i=0
 :loop
 set /a i=i+1
 if exist .\Log\Log_%DATE:/=%_%i%.txt goto loop
 
-".\data\PowerShell-5.1.exe" powershell Get-FileHash -Algorithm RIPEMD160 %1 > .\Log\Log_%DATE:/=%_%i%.txt
-".\data\PowerShell-5.1.exe" powershell Get-FileHash -Algorithm RIPEMD160 %1
+".\data\powershell.exe" powershell Get-FileHash -Algorithm RIPEMD160 %1
+".\data\powershell.exe" powershell Get-FileHash -Algorithm RIPEMD160 %1 > .\Log\Log_%DATE:/=%_%i%.txt
 
 PAUSE
+exit

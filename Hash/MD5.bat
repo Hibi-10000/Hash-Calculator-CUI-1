@@ -1,8 +1,14 @@
 @echo OFF
+rem chcp 65001
+cls
+
 echo.
-echo HashŒvŽZCUI1
-echo Copyright (c) 2021 Hibi_10000  All Rights Reserved.
+echo Hash Calculator CUI v1
 echo.
+echo Copyright (c) 2021-2022 Hibi_10000 GNU General Public License Version 3
+echo.
+
+if not exist Log (md Log)
 
 set i=0
 :loop
@@ -13,3 +19,4 @@ certutil -hashfile %1 MD5
 certutil -hashfile %1 MD5 > .\Log\Log_%DATE:/=%_%i%.txt
 
 PAUSE
+exit
