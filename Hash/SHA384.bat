@@ -1,5 +1,5 @@
 @echo OFF
-rem chcp 65001
+::chcp 65001
 cls
 
 echo.
